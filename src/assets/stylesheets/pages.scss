@@ -2,7 +2,12 @@
 .page-wrapper {
   background-image: url("../images/logo192.png");
   height: 100vh;
+  position: relative;
+  transition: 0.5s;
+  transform-origin: left;
+  transform-style: preserve-3d;
   width: 100vw;
+  z-index: 1;
 
   .overlay {
     align-items: center;
@@ -23,3 +28,17 @@
   }
 }
 
+.open-navigation {
+  animation: open-nav 0.5s ease;
+  cursor: pointer;
+  transform: perspective(1300px) rotateY(20deg) scale(0.5) translateZ(300px);
+}
+
+@keyframes open-nav {
+  from{
+    transform: translate(0);
+  }
+  to{
+    transform: perspective(1300px) rotateY(20deg) scale(0.5) translateZ(300px);
+  }
+}

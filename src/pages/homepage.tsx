@@ -1,15 +1,16 @@
 import React from 'react';
-import { RootState } from '../store/store';
 import '../assets/stylesheets/pages.scss';
 import { useSelector } from 'react-redux';
+import { RootState } from '../store/store';
 
 function Homepage() {
-  const theme = useSelector((state: RootState) => state.theme.value);
+  const openNavigation = useSelector((state: RootState) => state.navigation.value);
+  const className = openNavigation ? "page-wrapper open-navigation" : "page-wrapper";
   return (
-    <div className="page-wrapper">
+    <div className={className}>
       <div className='overlay'>
         <div className="title">Homepage</div>
-        <div className="content">{theme}</div>
+        <div className="content">content</div>
       </div>
     </div>
   );

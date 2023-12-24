@@ -1,0 +1,16 @@
+.link-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  right: 5%;
+  top: 40%;
+  opacity: 1;
+  transition: opacity 1s ease;
+  z-index: 1;
+}
+
+.invisible {
+  transition: opacity 1s ease;
+}

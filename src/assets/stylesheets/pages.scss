@@ -6,8 +6,8 @@
   transition: 0.5s;
   transform-origin: left;
   transform-style: preserve-3d;
-  width: 100vw;
-  z-index: 1;
+  width: 100%;
+  z-index: 2;
 
   .overlay {
     align-items: center;
@@ -30,6 +30,7 @@
 
 .open-navigation {
   animation: open-nav 0.5s ease;
+  box-shadow: -30px 30px 100px rgba(0, 0, 0, 0.4);
   cursor: pointer;
   transform: perspective(1300px) rotateY(20deg) scale(0.5) translateZ(300px);
 }

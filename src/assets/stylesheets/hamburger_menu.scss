@@ -1,0 +1,30 @@
+@import "./colors";
+.hamburger-menu {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 80%;
+  margin-right: 10px;
+  width: 25px;
+  .bar {
+    background-color: $mainLight;
+    border-radius: 2px;
+    height: 1.5px;
+    position: relative;
+    width: 100%;
+  }
+  .bar:before, .bar:after {
+    background-color: $mainLight;
+    border-radius: 2px;
+    content: "";
+    height: inherit;
+    position: absolute;
+    width: 100%;
+  }
+  .bar:before {
+    transform: translateY(-9px) translateX(-13px);
+  }
+  .bar:after {
+    transform: translateY(9px) translateX(-13px);
+  }
+}

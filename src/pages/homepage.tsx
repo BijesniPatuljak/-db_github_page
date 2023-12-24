@@ -1,16 +1,15 @@
 import React from 'react';
-import store from '../store/store';
+import { RootState } from '../store/store';
 import '../assets/stylesheets/pages.scss';
+import { useSelector } from 'react-redux';
 
 function Homepage() {
-  const test = store.getState;
-  console.log(test);
-  
+  const theme = useSelector((state: RootState) => state.theme.value);
   return (
     <div className="page-wrapper">
       <div className='overlay'>
         <div className="title">Homepage</div>
-        <div className="content">Content</div>
+        <div className="content">{theme}</div>
       </div>
     </div>
   );

@@ -11,7 +11,7 @@
 
   .overlay {
     align-items: center;
-    background: linear-gradient(40deg, $shadowDark, 55%, rgba($mainDark, 0.7));
+    background: linear-gradient(to right top, $shadowDark 33%, $mainDark 85%, $highlights);
     display: flex;
     flex-direction: column;
     height: 100%;

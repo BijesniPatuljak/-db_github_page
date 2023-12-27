@@ -4,10 +4,12 @@
   color: $mainLight;
   display: flex;
   flex-direction: column;
+  gap: 30px;
   justify-content: center;
   position: absolute;
   right: 10%;
-  top: 40%;
+  top: 50%;
+  transform: translateY(-50%);
   opacity: 1;
   transition: opacity 1s ease;
   z-index: 1;

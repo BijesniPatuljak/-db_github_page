@@ -13,9 +13,9 @@ function Links() {
   return(
     <div className={className}>
       <div className="nav-link">Homepage</div>
-      <div className="nav-link">About me</div>
-      <div className="nav-link">Education</div>
-      <div className="nav-link">CV and skill assesment</div>
+      <div className="nav-link">About Me</div>
+      <div className="nav-link">Education & Experience</div>
+      <div className="nav-link">Languages & Projects</div>
       <div className="nav-link">Contact</div>
     </div>
   );

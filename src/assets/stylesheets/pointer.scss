@@ -10,7 +10,10 @@
 }
 
 .blur {
-  backdrop-filter: blur(200px);
+  backdrop-filter: blur(150px);
+  -webkit-backdrop-filter: blur(150px);
+  -moz-backdrop-filter: blur(150px);
+  -o-backdrop-filter: blur(150px);
   height: 100%;
   position: absolute;
   width: 100%;

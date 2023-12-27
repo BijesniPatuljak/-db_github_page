@@ -3,22 +3,22 @@ import '../assets/stylesheets/pages.scss';
 import '../assets/stylesheets/pointer.scss';
 import { useSelector } from 'react-redux';
 import { RootState } from '../store/store';
-import useMousePosition from '../hooks/useMousePosition';
 import Pointer from '../components/pointer';
+import { useDispatch } from 'react-redux';
+import { toggleNavigation } from '../store/navigationSlice';
 
 function Homepage() {
   const openNavigation = useSelector((state: RootState) => state.navigation.value);
   const className = openNavigation ? "page-wrapper open-navigation" : "page-wrapper";
-  const { clientX, clientY } = useMousePosition();
-  const pointer = document.querySelector('.pointer');
-  pointer?.animate(
-    {
-      left: `${clientX}px`,
-      top: `${clientY}px`,
-    }, {duration: 3000, fill: 'forwards'}
-  );
+  const dispatch = useDispatch();
+
+  const handleOnClick = () => {
+    if (!openNavigation) return;
+    dispatch(toggleNavigation());
+  };
+
   return (
-    <div className={className}>
+    <div className={className} onClick={handleOnClick}>
       <div className='overlay'>
         <Pointer />
         <div className="title">Homepage</div>

@@ -1,10 +1,12 @@
+@import "./colors";
 .link-wrapper {
   align-items: center;
+  color: $mainLight;
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: absolute;
-  right: 5%;
+  right: 10%;
   top: 40%;
   opacity: 1;
   transition: opacity 1s ease;

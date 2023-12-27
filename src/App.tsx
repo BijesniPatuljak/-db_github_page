@@ -7,9 +7,9 @@ import Links from './components/links';
 
 function App() {
   return (
-    <div className="App">
+    <div className="backdrop">
+      <div className="App">
         <Navigation/>
-      <div className="backdrop">
         <Homepage/>
         <Links/>
       </div>

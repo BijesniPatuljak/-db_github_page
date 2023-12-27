@@ -1,6 +1,6 @@
 @import "./colors";
 .backdrop {
-  background: linear-gradient(55deg, $shadowDark, 80%, $highlights);
+  background: linear-gradient(55deg, $mainDark, 80%, $highlights);
   display: flex;
   flex-direction: row;
   height: 100vh;

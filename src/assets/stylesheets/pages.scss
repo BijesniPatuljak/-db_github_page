@@ -11,7 +11,8 @@
 
   .overlay {
     align-items: center;
-    background: linear-gradient(to right top, $shadowDark 33%, $mainDark 85%, $highlights);
+    background: transparent;
+    // backgroud: linear-gradient(to right top, $shadowDark 33%, $mainDark 85%, $highlights)
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -19,15 +20,22 @@
     width: 100%;
 
     .title {
-      color: $mainLight;
+      color: $text;
       font-size: 3.5rem;
       z-index: 3;
     }
 
     .content {
-      color: $mainLight;
-      font-size: 2rem;
+      color: $text;
+      font-size: 1.5rem;
+      max-width: 60%;
+      text-align: justify;
       z-index: 3;
+
+      .heading {
+        font-size: 2rem;
+        text-align: center;
+      }
     }
   }
 }

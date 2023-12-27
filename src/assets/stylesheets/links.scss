@@ -2,7 +2,7 @@
 
 .link-wrapper {
   align-items: center;
-  color: $mainLight;
+  color: $text;
   display: flex;
   flex-direction: column;
   font-size: 26px;
@@ -21,7 +21,7 @@
   }
 
   .nav-link::before {
-    background-color: $mainLight;
+    background-color: $text;
     border-radius: 5px;
     bottom: -4px;
     content: '';

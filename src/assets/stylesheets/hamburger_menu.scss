@@ -7,14 +7,14 @@
   margin-right: 30px;
   width: 25px;
   .bar {
-    background-color: $mainLight;
+    background-color: $text;
     border-radius: 2px;
     height: 1.5px;
     position: relative;
     width: 100%;
   }
   .bar:before, .bar:after {
-    background-color: $mainLight;
+    background-color: $text;
     border-radius: 2px;
     content: "";
     height: inherit;

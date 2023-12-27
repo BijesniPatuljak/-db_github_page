@@ -1,14 +1,12 @@
-$mainLight: #ffffff;
-$shadowLight: #bfbfbf;
+$text: #ffffff;
+$mainLight: #007acc;
 $highlights: #007acc;
-$mainDark: #252526;
+$mainDark: #111235;
 $shadowDark: #1e1e1e;
-$highlights: #007acc;
 
 :export {
   mainDark: $mainDark;
   shadowDark: $shadowDark;
   mainLight: $mainLight;
-  shadowLight: $shadowLight;
   highlights: $highlights;
 }

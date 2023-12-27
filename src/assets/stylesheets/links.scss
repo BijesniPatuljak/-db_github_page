@@ -1,9 +1,11 @@
 @import "./colors";
+
 .link-wrapper {
   align-items: center;
   color: $mainLight;
   display: flex;
   flex-direction: column;
+  font-size: 26px;
   gap: 30px;
   justify-content: center;
   position: absolute;
@@ -13,7 +15,32 @@
   opacity: 1;
   transition: opacity 1s ease;
   z-index: 1;
+
+  .nav-link {
+    position: relative;
+  }
+
+  .nav-link::before {
+    background-color: $mainLight;
+    border-radius: 5px;
+    bottom: -4px;
+    content: '';
+    left: 0;
+    height: 2px;
+    position: absolute;
+    transition: width 0.5s ease;
+    width: 0;
+  }
+
+  .nav-link:hover {
+    cursor: pointer;
+  }
+
+  .nav-link:hover::before {
+    width: 100%;
+  }
 }
+
 
 .invisible {
   transition: opacity 1s ease;

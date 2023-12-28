@@ -19,15 +19,15 @@ function App() {
                   <Routes>
                       <Route
                           path="/"
-                          element={<PagePanel page='Homepage'/>}
+                          element={<PagePanel pageInNavigation='Homepage'/>}
                       />
                       <Route
                           path="/education"
-                          element={<PagePanel page='Education'/>}
+                          element={<PagePanel pageInNavigation='Education'/>}
                       />
                       <Route
                           path="/contact"
-                          element={<PagePanel page='Contact'/>}
+                          element={<PagePanel pageInNavigation='Contact'/>}
                       />
                   </Routes>
           <Links/>

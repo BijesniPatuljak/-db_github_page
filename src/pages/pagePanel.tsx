@@ -10,11 +10,12 @@ import Education from './education';
 import Contact from './contact';
 
 interface Props {
-  page: string;
+  pageInNavigation: string;
 }
 
-function PagePanel({ page }: Props) {
-  const openNavigation = useSelector((state: RootState) => state.navigation.value);
+function PagePanel({ pageInNavigation }: Props) {
+  const openNavigation = useSelector((state: RootState) => state.navigation.isOpen);
+  const hoveredLink = useSelector((state: RootState) => state.navigation.page);
   const className = openNavigation ? "page-wrapper open-navigation" : "page-wrapper";
   const dispatch = useDispatch();
 
@@ -23,10 +24,18 @@ function PagePanel({ page }: Props) {
     dispatch(toggleNavigation());
   };
 
+  const refreshedOrNavigated = !openNavigation && (pageInNavigation !== hoveredLink);
+
+  var activePage = hoveredLink;
+
+  if (refreshedOrNavigated || hoveredLink === '') {
+    activePage = pageInNavigation;
+  };
+
   // Just so TypeScript stops shouting at me
   var pageComponent = <Contact/>;
 
-  switch (page) {
+  switch (activePage) {
     case 'Homepage':
       pageComponent = <Homepage/>;
       break;

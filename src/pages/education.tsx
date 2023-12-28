@@ -3,7 +3,7 @@ import '../assets/stylesheets/pages.scss';
 
 function Education() {
   return (
-    <>
+    <div className='page-container'>
       <div className="title">Education</div>
       <div className="content">
         <p className='heading'>
@@ -13,7 +13,7 @@ function Education() {
           Something has brought you here to check out my skills and knowledge regarding
         </p>
       </div>
-    </>
+    </div>
   );
 }
 

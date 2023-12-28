@@ -18,33 +18,55 @@
     justify-content: center;
     width: 100%;
 
-    .title {
-      color: $text;
-      font-size: 3.5rem;
-      z-index: 3;
-    }
-
-    .content {
-      color: rgba($text, 0.6);
-      font-size: 1.5rem;
-      max-width: 60%;
-      text-align: justify;
+    .page-container {
+      animation: fadeInAnimation 0.7s ease-in;
+      align-items: center;
+      // backgroud: linear-gradient(to right top, $shadowDark 33%, $mainDark 85%, $highlights)
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      justify-content: center;
+      width: 100%;
       z-index: 3;
 
-      .highlight {
-        color: rgba($text, 1);
+      @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+         }
+    }
+
+      .title {
+        color: $text;
+        font-size: 3.5rem;
+        z-index: 3;
       }
 
-      .clickable:hover {
-        cursor: pointer;
-      }
+      .content {
+        color: rgba($text, 0.6);
+        font-size: 1.5rem;
+        max-width: 60%;
+        text-align: justify;
+        z-index: 3;
 
-      .heading {
-        font-size: 2rem;
-        color: rgba($text, 1);
-        text-align: center;
+        .highlight {
+          color: rgba($text, 1);
+        }
+
+        .clickable:hover {
+          cursor: pointer;
+        }
+
+        .heading {
+          font-size: 2rem;
+          color: rgba($text, 1);
+          text-align: center;
+        }
       }
     }
+
   }
 }
 

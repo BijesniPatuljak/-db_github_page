@@ -20,6 +20,14 @@ nav {
     margin-left: 30px;
     width: 20%;
 
+    svg {
+      color: $mainLight;
+      height: 90%;
+      max-height: 2.5rem;
+      min-width: 2rem;
+      width: auto;
+    }
+
     .nav-title {
       color: $text;
     }

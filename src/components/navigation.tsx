@@ -1,16 +1,13 @@
-import React from 'react';
-import Logo from './logo';
 import HamburgerMenu from './hamburgerMenu';
-import logo from '../assets/images/logo192.png';
 import '../assets/stylesheets/navigation.scss';
+import NavigationIcon from './navigationIcon';
+
 
 function Navigation() {
   return (
     <nav>
       <div className='nav-left'>
-        <Logo
-          source={logo}
-        />
+        <NavigationIcon />
         <div className='nav-text-container'>
           <span className='nav-title'>Dario</span>
           <span className='nav-title bold'>Bogović</span>

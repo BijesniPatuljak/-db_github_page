@@ -35,6 +35,10 @@
         color: rgba($text, 1);
       }
 
+      .clickable:hover {
+        cursor: pointer;
+      }
+
       .heading {
         font-size: 2rem;
         color: rgba($text, 1);

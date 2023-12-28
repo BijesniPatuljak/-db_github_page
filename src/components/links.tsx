@@ -24,9 +24,9 @@ function Links() {
   return(
     <div className={className}>
       <div className="nav-link" onClick={() => handleOnClick('/')} onMouseOver={() => handleHover('Homepage')}>Homepage</div>
-      <div className="nav-link">About Me</div>
+      <div className="nav-link" onClick={() => handleOnClick('/about')} onMouseOver={() => handleHover('About')}>About Me</div>
       <div className="nav-link" onClick={() => handleOnClick('/education')} onMouseOver={() => handleHover('Education')}>Education & Experience</div>
-      <div className="nav-link">Languages & Projects</div>
+      <div className="nav-link" onClick={() => handleOnClick('/code')} onMouseOver={() => handleHover('Code')}>Languages & Projects</div>
       <div className="nav-link" onClick={() => handleOnClick('/contact')} onMouseOver={() => handleHover('Contact')}>Contact</div>
     </div>
   );

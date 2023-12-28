@@ -8,6 +8,8 @@ import { toggleNavigation } from '../store/navigationSlice';
 import Homepage from './homepage';
 import Education from './education';
 import Contact from './contact';
+import About from './about';
+import Code from './code';
 
 interface Props {
   pageInNavigation: string;
@@ -40,13 +42,13 @@ function PagePanel({ pageInNavigation }: Props) {
       pageComponent = <Homepage/>;
       break;
     case 'About':
-      // pageComponent = <About/>;
+      pageComponent = <About/>;
       break;
     case 'Education':
       pageComponent = <Education/>;
       break;
     case 'Code':
-      // pageComponent = <Code/>;
+      pageComponent = <Code/>;
       break;
     default:
       pageComponent = <Contact/>;

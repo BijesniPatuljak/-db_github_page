@@ -22,8 +22,16 @@ function App() {
                           element={<PagePanel pageInNavigation='Homepage'/>}
                       />
                       <Route
+                          path="/about"
+                          element={<PagePanel pageInNavigation='About'/>}
+                      />
+                      <Route
                           path="/education"
                           element={<PagePanel pageInNavigation='Education'/>}
+                      />
+                      <Route
+                          path="/code"
+                          element={<PagePanel pageInNavigation='Code'/>}
                       />
                       <Route
                           path="/contact"

@@ -5,6 +5,7 @@ import { RootState } from '../store/store';
 import Pointer from '../components/pointer';
 import { useDispatch } from 'react-redux';
 import { toggleNavigation } from '../store/navigationSlice';
+import { useNavigate } from "react-router-dom";
 import Homepage from './homepage';
 import Education from './education';
 import Contact from './contact';
@@ -16,6 +17,7 @@ interface Props {
 }
 
 function PagePanel({ pageInNavigation }: Props) {
+  const navigate = useNavigate();
   const openNavigation = useSelector((state: RootState) => state.navigation.isOpen);
   const hoveredLink = useSelector((state: RootState) => state.navigation.page);
   const className = openNavigation ? "page-wrapper open-navigation" : "page-wrapper";
@@ -23,6 +25,7 @@ function PagePanel({ pageInNavigation }: Props) {
 
   const handleOnClick = () => {
     if (!openNavigation) return;
+    navigate(`/${hoveredLink}`);
     dispatch(toggleNavigation());
   };
 

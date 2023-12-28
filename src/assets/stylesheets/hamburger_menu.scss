@@ -1,4 +1,5 @@
 @import "./colors";
+
 .hamburger-menu {
   align-items: center;
   cursor: pointer;
@@ -6,25 +7,46 @@
   height: 80%;
   margin-right: 30px;
   width: 25px;
+
   .bar {
     background-color: $text;
     border-radius: 2px;
     height: 1.5px;
     position: relative;
     width: 100%;
+
+    transition: background-color 0.3s, transform 0.3s;
   }
-  .bar:before, .bar:after {
+
+  .bar:before,
+  .bar:after {
     background-color: $text;
     border-radius: 2px;
     content: "";
     height: inherit;
     position: absolute;
+    transition: background-color 0.3s, transform 0.3s;
     width: 100%;
   }
+
   .bar:before {
     transform: translateY(-9px) translateX(-13px);
   }
+
   .bar:after {
     transform: translateY(9px) translateX(-13px);
+  }
+
+  &.active .bar {
+    background-color: transparent;
+    transform: rotate(360deg);
+  }
+
+  &.active .bar:before {
+    transform: translateX(-50%) rotate(45deg);
+  }
+
+  &.active .bar:after {
+    transform: translateX(-50%) rotate(-45deg);
   }
 }

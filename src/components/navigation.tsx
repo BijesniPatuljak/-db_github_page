@@ -13,7 +13,7 @@ function Navigation() {
           <span className='nav-title bold'>Bogović</span>
         </div>
       </div>
-      <HamburgerMenu active={false}/>
+      <HamburgerMenu/>
     </nav>
   );
 }

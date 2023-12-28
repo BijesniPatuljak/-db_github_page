@@ -1,16 +1,16 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
+import { RootState } from '../store/store';
 import '../assets/stylesheets/hamburger_menu.scss';
 import { useDispatch } from 'react-redux';
 import { toggleNavigation } from '../store/navigationSlice';
 
-interface HamburgerMenuProps {
-  active?: boolean;
-}
-
-function HamburgerMenu({active = false}: HamburgerMenuProps) {
+function HamburgerMenu() {
+  const openNavigation = useSelector((state: RootState) => state.navigation.isOpen);
   const dispatch = useDispatch();
+  const className = openNavigation ? 'active hamburger-menu' : 'hamburger-menu'
   return(
-    <div className="hamburger-menu" onClick={() => dispatch(toggleNavigation())}>
+    <div className={className} onClick={() => dispatch(toggleNavigation())}>
       <div className="bar"></div>
     </div>
   );

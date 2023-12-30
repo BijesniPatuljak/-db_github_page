@@ -14,7 +14,7 @@
     // backgroud: linear-gradient(to right top, $shadowDark 33%, $mainDark 85%, $highlights)
     display: flex;
     flex-direction: column;
-    height: 100%; // TODO
+    height: 100%;
     justify-content: center;
     position: relative;
     width: 100%;
@@ -22,12 +22,14 @@
     .page-container {
       animation: fadeInAnimation 1s ease-in;
       align-items: center;
+      bottom: 50px;
       // backgroud: linear-gradient(to right top, $shadowDark 33%, $mainDark 85%, $highlights)
       display: flex;
       flex-direction: column;
       height: -webkit-fill-available;
       justify-content: flex-start;
       position: absolute;
+      overflow: hidden;
       top: 25%;
       width: 100%;
       z-index: 3;
@@ -44,6 +46,7 @@
       .title {
         color: $text;
         font-size: 3.5rem;
+        max-width: 80%;
         z-index: 3;
       }
 

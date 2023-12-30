@@ -14,8 +14,9 @@
     // backgroud: linear-gradient(to right top, $shadowDark 33%, $mainDark 85%, $highlights)
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 100%; // TODO
     justify-content: center;
+    position: relative;
     width: 100%;
 
     .page-container {
@@ -24,8 +25,10 @@
       // backgroud: linear-gradient(to right top, $shadowDark 33%, $mainDark 85%, $highlights)
       display: flex;
       flex-direction: column;
-      height: 100%;
-      justify-content: center;
+      height: -webkit-fill-available;
+      justify-content: flex-start;
+      position: absolute;
+      top: 25%;
       width: 100%;
       z-index: 3;
 
@@ -48,8 +51,12 @@
         color: rgba($text, 0.6);
         font-size: 1.5rem;
         max-width: 60%;
+        overflow-x: hidden;
+        overflow-y: scroll;
         text-align: justify;
+        margin-top: 20px;
         z-index: 3;
+
 
         .highlight {
           color: rgba($text, 1);
@@ -60,8 +67,9 @@
         }
 
         .heading {
-          font-size: 2rem;
           color: rgba($text, 1);
+          font-size: 2rem;
+          margin-top: 0;
           text-align: center;
         }
       }
@@ -74,7 +82,7 @@
   animation: open-nav 0.5s ease;
   box-shadow: -30px 30px 100px rgba(0, 0, 0, 0.4);
   cursor: pointer;
-  transform: perspective(1300px) rotateY(20deg) scale(0.5) translateZ(300px);
+  transform: perspective(1300px) rotateY(20deg) scale(0.5) translateZ(200px);
 }
 
 @keyframes open-nav {
@@ -82,6 +90,10 @@
     transform: translate(0);
   }
   to{
-    transform: perspective(1300px) rotateY(20deg) scale(0.5) translateZ(300px);
+    transform: perspective(1300px) rotateY(20deg) scale(0.5) translateZ(200px);
   }
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

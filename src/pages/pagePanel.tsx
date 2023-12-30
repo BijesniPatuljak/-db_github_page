@@ -60,8 +60,8 @@ function PagePanel({ pageInNavigation }: Props) {
 
   return (
     <div className={className} onClick={handleOnClick}>
-      <div className="overlay">
         <Pointer />
+      <div className="overlay">
         {pageComponent}
       </div>
     </div>

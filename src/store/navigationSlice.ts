@@ -1,4 +1,5 @@
-import { createSlice, PayloadAction } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
+import type { PayloadAction } from '@reduxjs/toolkit';
 
 interface NavigationState {
   isOpen: boolean;
@@ -8,7 +9,7 @@ interface NavigationState {
 const initialState: NavigationState = {
   isOpen: false,
   page: '',
-}
+};
 
 const navigationSlice = createSlice({
   name: 'navigation',
@@ -20,8 +21,8 @@ const navigationSlice = createSlice({
     },
     changeActivePage: (state, action: PayloadAction<{ page: string }>) => {
       state.page = action.payload.page;
-    }
-  }
+    },
+  },
 });
 
 export const { toggleNavigation, changeActivePage } = navigationSlice.actions;

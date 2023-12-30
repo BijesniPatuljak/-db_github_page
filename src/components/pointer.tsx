@@ -9,12 +9,13 @@ function Pointer() {
     {
       left: `${clientX}px`,
       top: `${clientY}px`,
-    }, {duration: 3000, fill: 'forwards'}
+    }, { duration: 3000, fill: 'forwards' },
   );
+
   return (
     <>
-      <div className='pointer'/>
-      <div className='blur'/>
+      <div className="pointer"/>
+      <div className="blur"/>
     </>
   );
 }

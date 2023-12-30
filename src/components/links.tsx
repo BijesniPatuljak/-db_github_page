@@ -1,9 +1,9 @@
 import React from 'react';
 import '../assets/stylesheets/links.scss';
-import { RootState } from '../store/store';
 import { useDispatch, useSelector } from 'react-redux';
-import { toggleNavigation, changeActivePage } from '../store/navigationSlice';
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
+import { changeActivePage, toggleNavigation } from '../store/navigationSlice';
+import type { RootState } from '../store/store';
 
 function Links() {
   const navigate = useNavigate();
@@ -19,9 +19,9 @@ function Links() {
     dispatch(changeActivePage({ page: page }));
   };
 
-  const className = openNavigation ? "link-wrapper" : "invisible";
+  const className = openNavigation ? 'link-wrapper' : 'invisible';
 
-  return(
+  return (
     <div className={className}>
       <div className="nav-link" onClick={() => handleOnClick('/')} onMouseOver={() => handleHover('Homepage')}>Homepage</div>
       <div className="nav-link" onClick={() => handleOnClick('/about')} onMouseOver={() => handleHover('About')}>About Me</div>

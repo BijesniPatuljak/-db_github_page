@@ -1,23 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../assets/stylesheets/pages.scss';
+import Cpp from './language_content/cpp';
 
 function Code() {
+  const [language, setLanguage] = useState<string>('cpp');
+  const languageOptions =['cpp', 'rust', 'ruby', 'ts', 'misc'];
   return (
     <div className="page-container">
-      <div className="title">Coding experience</div>
-      <div className="content">
-        <p className="heading">
-          But you're probably not here to listen about my journeys as a Scout and Scoutmaster
-        </p>
-        <p>
-          Something has brought you here to check out my skills and knowledge regarding
-        </p>
-        <p>
-          Something has brought you here to check out my skills and knowledge regarding
-        </p>
-        <p>
-          Something has brought you here to check out my skills and knowledge regarding
-        </p>
+      {language === 'cpp' &&
+      <Cpp/>}
+      <div className='language-picker'>
+        {languageOptions.map((lang) => (
+          <div className='language'>
+            {lang}
+          </div>
+        ))}
       </div>
     </div>
   );

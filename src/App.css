@@ -1,9 +1,14 @@
-.App {
-  font-family: 'FenomenSans';
-  text-align: center;
+@font-face {
+  font-family: 'Fenomen Sans';
+  src: local('Fenomen Sans Regular'), local('Fenomen-Sans-Regular'),
+      url('./assets/fonts/FenomenSans-Regular.woff2') format('woff2'),
+      url('./assets/fonts/FenomenSans-Regular.woff') format('woff'),
+      url('./assets/fonts/FenomenSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
 
-@font-face {
-  font-family: 'FenomenSans';
-  src: local('FenomenSans-CNRegular'), url(./assets/fonts/FenomenSans-CNRegular.ttf) format('ttf');
+.App {
+  font-family: 'Fenomen Sans';
+  text-align: center;
 }

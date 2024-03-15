@@ -5,7 +5,7 @@ import Ruby from './language_content/ruby';
 
 function Code() {
   const [language, setLanguage] = useState<string>('cpp');
-  const languageOptions =['cpp', 'rust', 'ruby', 'ts', 'misc'];
+  const languageOptions =['ruby', 'ts', 'rust', 'cpp', 'sql', 'python', 'misc'];
 
   const handleLanguageClick = (index: number) => {
     setLanguage(languageOptions[index]);

@@ -58,7 +58,7 @@
         overflow-x: hidden;
         overflow-y: scroll;
         text-align: justify;
-        margin-top: 20px;
+        padding-bottom: 40px;
         z-index: 3;
 
         p {
@@ -77,17 +77,18 @@
         display: flex;
         flex-direction: row;
         height: 20%;
-        justify-content: center;
+        overflow-x: scroll;
+        overflow-y: hidden;
         width: 100%;
 
         .language {
           align-items: center;
-          border: 1px solid;
+          box-shadow: 0 0 60px 20px rgba(0,0,0,.25);
           color: $text;
           display: flex;
           height: 100%;
           justify-content: center;
-          width: 20%;
+          min-width: 18%;
         }
       }
 

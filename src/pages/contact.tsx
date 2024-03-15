@@ -7,7 +7,7 @@ function Contact() {
       <div className="title">Contact</div>
       <div className="content">
         <p>
-         email (preferred): <a href="mailto:bpatuljak@hotmail.com">bpatuljak@hotmail.com</a>
+         e-mail: <a href="mailto:bpatuljak@hotmail.com">bpatuljak@hotmail.com</a>
         </p>
         <p>
          LinkedIn: <a href="https://www.linkedin.com/in/dario-bogovi%C4%87-b23916231/">Dario Bogović</a>

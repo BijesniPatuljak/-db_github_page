@@ -13,7 +13,7 @@ function Education() {
           As of 2023 I'm a <span className="highlight">University Master of Computer Science and Mathematics</span>. Before that I finished my bachelor's degree in mathematics on the same faculty: Zagreb's Faculty of Science. During my last year on the faculty I started my professional software development career as a backend developer in <span className="highlight">Ruby on Rails</span> and later I added <span className="highlight">React</span> to the mix.
         </p>
         <p>
-          Otherwise, I'm aquainter with part of the Adobe suite (Photoshop and Illustrator) with some experience using Figma.
+          Otherwise, I'm aquainted with parts of the Adobe suite (Photoshop and Illustrator) with some experience using Figma.
         </p>
       </div>
     </div>

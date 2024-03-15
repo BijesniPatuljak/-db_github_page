@@ -41,7 +41,7 @@
         100% {
             opacity: 1;
          }
-    }
+      }
 
       .title {
         color: $text;
@@ -73,12 +73,20 @@
 
       .language-picker {
         align-items: center;
+        background-color: $shadowDark;
         display: flex;
         flex-direction: row;
+        height: 20%;
         justify-content: center;
         width: 100%;
 
         .language {
+          align-items: center;
+          border: 1px solid;
+          color: $text;
+          display: flex;
+          height: 100%;
+          justify-content: center;
           width: 20%;
         }
       }
@@ -112,6 +120,11 @@
           text-align: center;
         }
       }
+    }
+
+    .experience {
+      bottom:  0px;
+      justify-content: space-between;
     }
 
   }

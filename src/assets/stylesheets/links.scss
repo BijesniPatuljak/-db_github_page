@@ -19,26 +19,14 @@
 
   .nav-link {
     position: relative;
-  }
-
-  .nav-link::before {
-    background-color: $text;
-    border-radius: 5px;
-    bottom: -4px;
-    content: '';
-    left: 0;
-    height: 2px;
-    position: absolute;
-    transition: width 0.5s ease;
-    width: 0;
+    text-decoration: underline 0.08em rgba($text, 0);
+    text-underline-offset: 0.2em;
+    transition: text-decoration-color 1s, text-underline-offset 1s;
   }
 
   .nav-link:hover {
     cursor: pointer;
-  }
-
-  .nav-link:hover::before {
-    width: 100%;
+    text-decoration-color: rgba($text, 1);
   }
 }
 

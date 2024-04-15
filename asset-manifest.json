@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/db_github_page/static/css/main.ab545e00.css",
-    "main.js": "/db_github_page/static/js/main.0cc45c38.js",
-    "static/js/787.a76c85d2.chunk.js": "/db_github_page/static/js/787.a76c85d2.chunk.js",
-    "static/media/FenomenSans-Regular.ttf": "/db_github_page/static/media/FenomenSans-Regular.2f7d3b4bda0cbb572ccb.ttf",
-    "static/media/cpp.png": "/db_github_page/static/media/cpp.9741598af6fe83e8ce4d.png",
-    "static/media/misc.png": "/db_github_page/static/media/misc.94a3f22464ab09a86efa.png",
-    "static/media/FenomenSans-Regular.woff": "/db_github_page/static/media/FenomenSans-Regular.5a842e502223fced3aad.woff",
-    "static/media/python.png": "/db_github_page/static/media/python.3666f09e2ea7885941fc.png",
-    "static/media/FenomenSans-Regular.woff2": "/db_github_page/static/media/FenomenSans-Regular.3277db6501d4df18a3c0.woff2",
-    "static/media/ruby.png": "/db_github_page/static/media/ruby.a9a25f2edc6b9209df25.png",
-    "static/media/sql.png": "/db_github_page/static/media/sql.6b1e7b28637b48c6249e.png",
-    "index.html": "/db_github_page/index.html",
-    "main.ab545e00.css.map": "/db_github_page/static/css/main.ab545e00.css.map",
-    "main.0cc45c38.js.map": "/db_github_page/static/js/main.0cc45c38.js.map",
-    "787.a76c85d2.chunk.js.map": "/db_github_page/static/js/787.a76c85d2.chunk.js.map"
+    "main.css": "/static/css/main.c26a764e.css",
+    "main.js": "/static/js/main.7805b3a1.js",
+    "static/js/787.a76c85d2.chunk.js": "/static/js/787.a76c85d2.chunk.js",
+    "static/media/FenomenSans-Regular.ttf": "/static/media/FenomenSans-Regular.2f7d3b4bda0cbb572ccb.ttf",
+    "static/media/cpp.png": "/static/media/cpp.9741598af6fe83e8ce4d.png",
+    "static/media/misc.png": "/static/media/misc.94a3f22464ab09a86efa.png",
+    "static/media/FenomenSans-Regular.woff": "/static/media/FenomenSans-Regular.5a842e502223fced3aad.woff",
+    "static/media/python.png": "/static/media/python.3666f09e2ea7885941fc.png",
+    "static/media/FenomenSans-Regular.woff2": "/static/media/FenomenSans-Regular.3277db6501d4df18a3c0.woff2",
+    "static/media/ruby.png": "/static/media/ruby.a9a25f2edc6b9209df25.png",
+    "static/media/sql.png": "/static/media/sql.6b1e7b28637b48c6249e.png",
+    "index.html": "/index.html",
+    "main.c26a764e.css.map": "/static/css/main.c26a764e.css.map",
+    "main.7805b3a1.js.map": "/static/js/main.7805b3a1.js.map",
+    "787.a76c85d2.chunk.js.map": "/static/js/787.a76c85d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab545e00.css",
-    "static/js/main.0cc45c38.js"
+    "static/css/main.c26a764e.css",
+    "static/js/main.7805b3a1.js"
   ]
 }

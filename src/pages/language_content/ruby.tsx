@@ -44,7 +44,7 @@ function Ruby() {
           when (it comes to jobs and gems)
         </p>
         <p className="tab1">
-          I'm no stranger to Devise, Sidekiq, GoodJob, Anycable || RSpec
+          I'm no stranger to Redis, Devise, Sidekiq, GoodJob, Anycable || RSpec
         </p>
         <p className="tab1">
           && many more, which is why I would default to Ruby on Rails

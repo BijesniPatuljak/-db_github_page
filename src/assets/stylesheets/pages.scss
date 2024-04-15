@@ -79,7 +79,7 @@
 
       .language-picker {
         align-items: center;
-        background-color: $shadowDark;
+        // background-color: $shadowDark;
         display: flex;
         flex-direction: row;
         height: 20%;
@@ -89,12 +89,17 @@
 
         .language {
           align-items: center;
-          box-shadow: 0 0 60px 20px rgba(0,0,0,.25);
+          // box-shadow: 0 0 60px 20px rgba(0,0,0,.25);
           color: $text;
           display: flex;
           height: 100%;
           justify-content: center;
           min-width: 18%;
+
+          img {
+            height: auto;
+            width: 40%;
+          }
         }
       }
 

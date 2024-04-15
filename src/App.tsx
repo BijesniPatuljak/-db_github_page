@@ -18,27 +18,27 @@ function App() {
           <Navigation/>
           <Routes>
             <Route
-                path="/"
+                path="db_github_page/"
                 element={<PagePanel pageInNavigation="Homepage"/>}
             />
             <Route
-                path="/homepage"
+                path="db_github_page/homepage"
                 element={<PagePanel pageInNavigation="Homepage"/>}
             />
             <Route
-                path="/about"
+                path="db_github_page/about"
                 element={<PagePanel pageInNavigation="About"/>}
             />
             <Route
-                path="/education"
+                path="db_github_page/education"
                 element={<PagePanel pageInNavigation="Education"/>}
             />
             <Route
-                path="/code"
+                path="db_github_page/code"
                 element={<PagePanel pageInNavigation="Code"/>}
             />
             <Route
-                path="/contact"
+                path="db_github_page/contact"
                 element={<PagePanel pageInNavigation="Contact"/>}
             />
           </Routes>

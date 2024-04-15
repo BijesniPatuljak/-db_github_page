@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.8a47bf06.css",
-    "main.js": "/home/static/js/main.abcf54bd.js",
-    "static/js/787.a76c85d2.chunk.js": "/home/static/js/787.a76c85d2.chunk.js",
-    "static/media/FenomenSans-Regular.ttf": "/home/static/media/FenomenSans-Regular.2f7d3b4bda0cbb572ccb.ttf",
-    "static/media/cpp.png": "/home/static/media/cpp.9741598af6fe83e8ce4d.png",
-    "static/media/misc.png": "/home/static/media/misc.94a3f22464ab09a86efa.png",
-    "static/media/FenomenSans-Regular.woff": "/home/static/media/FenomenSans-Regular.5a842e502223fced3aad.woff",
-    "static/media/python.png": "/home/static/media/python.3666f09e2ea7885941fc.png",
-    "static/media/FenomenSans-Regular.woff2": "/home/static/media/FenomenSans-Regular.3277db6501d4df18a3c0.woff2",
-    "static/media/ruby.png": "/home/static/media/ruby.a9a25f2edc6b9209df25.png",
-    "static/media/sql.png": "/home/static/media/sql.6b1e7b28637b48c6249e.png",
-    "index.html": "/home/index.html",
-    "main.8a47bf06.css.map": "/home/static/css/main.8a47bf06.css.map",
-    "main.abcf54bd.js.map": "/home/static/js/main.abcf54bd.js.map",
-    "787.a76c85d2.chunk.js.map": "/home/static/js/787.a76c85d2.chunk.js.map"
+    "main.css": "/db_github_page/static/css/main.ab545e00.css",
+    "main.js": "/db_github_page/static/js/main.0cc45c38.js",
+    "static/js/787.a76c85d2.chunk.js": "/db_github_page/static/js/787.a76c85d2.chunk.js",
+    "static/media/FenomenSans-Regular.ttf": "/db_github_page/static/media/FenomenSans-Regular.2f7d3b4bda0cbb572ccb.ttf",
+    "static/media/cpp.png": "/db_github_page/static/media/cpp.9741598af6fe83e8ce4d.png",
+    "static/media/misc.png": "/db_github_page/static/media/misc.94a3f22464ab09a86efa.png",
+    "static/media/FenomenSans-Regular.woff": "/db_github_page/static/media/FenomenSans-Regular.5a842e502223fced3aad.woff",
+    "static/media/python.png": "/db_github_page/static/media/python.3666f09e2ea7885941fc.png",
+    "static/media/FenomenSans-Regular.woff2": "/db_github_page/static/media/FenomenSans-Regular.3277db6501d4df18a3c0.woff2",
+    "static/media/ruby.png": "/db_github_page/static/media/ruby.a9a25f2edc6b9209df25.png",
+    "static/media/sql.png": "/db_github_page/static/media/sql.6b1e7b28637b48c6249e.png",
+    "index.html": "/db_github_page/index.html",
+    "main.ab545e00.css.map": "/db_github_page/static/css/main.ab545e00.css.map",
+    "main.0cc45c38.js.map": "/db_github_page/static/js/main.0cc45c38.js.map",
+    "787.a76c85d2.chunk.js.map": "/db_github_page/static/js/787.a76c85d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8a47bf06.css",
-    "static/js/main.abcf54bd.js"
+    "static/css/main.ab545e00.css",
+    "static/js/main.0cc45c38.js"
   ]
 }

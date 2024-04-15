@@ -1,37 +1,38 @@
 function Cpp() {
-  return(
+  return (
     <div className="code">
       <p>
         typedef theCreator I;
       </p>
+      <br />
       <p>
         for(;theLongestTime;) {'{'}
       </p>
-      <p className='tab1'>
+      <p className="tab1">
         C and C++ were my go-to languages;
       </p>
-      <p className='tab1'>
+      <p className="tab1">
         Not by personal preference but by the faculty's curriculum;
       </p>
-      <p className='tab1'>
+      <p className="tab1">
         Nevertheless, I enjoy working with them;
       </p>
-      <p className='tab1'>
+      <p className="tab1">
         I learnt data structures, algorithms, memory and time menagement with them;
       </p>
-      <p className='tab1'>
+      <p className="tab1">
         And created some smaller games like tetris and snake using SFML;
       </p>
-      <p className='tab1'>
+      <p className="tab1">
         I grew to love both languages && expand to C#;
       </p>
-      <p className='tab1'>
-        With a tv_manager being the most notable (student) project;
+      <p className="tab1">
+        With a <a href="https://github.com/BijesniPatuljak/tv_manager">tv_manager</a> being the most notable (student) project;
       </p>
-      <p className='tab1'>
+      <p className="tab1">
         I'd love to continue working in the C family, especially C#;
       </p>
-      <p className='tab1'>
+      <p className="tab1">
         I belive that static types are the way to go in bigger projects;
       </p>
       <p>

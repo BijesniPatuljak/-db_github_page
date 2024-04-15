@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/db_github_page/static/css/main.ab545e00.css",
-    "main.js": "/db_github_page/static/js/main.5d945915.js",
+    "main.js": "/db_github_page/static/js/main.351b347b.js",
     "static/js/787.a76c85d2.chunk.js": "/db_github_page/static/js/787.a76c85d2.chunk.js",
     "static/media/FenomenSans-Regular.ttf": "/db_github_page/static/media/FenomenSans-Regular.2f7d3b4bda0cbb572ccb.ttf",
     "static/media/cpp.png": "/db_github_page/static/media/cpp.9741598af6fe83e8ce4d.png",
@@ -13,11 +13,11 @@
     "static/media/sql.png": "/db_github_page/static/media/sql.6b1e7b28637b48c6249e.png",
     "index.html": "/db_github_page/index.html",
     "main.ab545e00.css.map": "/db_github_page/static/css/main.ab545e00.css.map",
-    "main.5d945915.js.map": "/db_github_page/static/js/main.5d945915.js.map",
+    "main.351b347b.js.map": "/db_github_page/static/js/main.351b347b.js.map",
     "787.a76c85d2.chunk.js.map": "/db_github_page/static/js/787.a76c85d2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab545e00.css",
-    "static/js/main.5d945915.js"
+    "static/js/main.351b347b.js"
   ]
 }

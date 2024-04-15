@@ -1,7 +1,7 @@
 {
   "name": "db_github_page",
   "version": "0.1.0",
-  "homepage": "https://BijesniPatuljak.github.io/home",
+  "homepage": "https://BijesniPatuljak.github.io/db_github_page",
   "private": true,
   "dependencies": {
     "@react-spring/web": "^9.7.3",
